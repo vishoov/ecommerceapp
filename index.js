@@ -26,6 +26,9 @@ app.get('/', (req, res)=>{
     //res.sendFile would send the index.html as response to this route
 })
 
+app.get("/v1", (req, res)=>{
+    res.sendFile(__dirname + '/index.html');
+})
 
 app.use("/v1", userRoutes);
 //versioning of the routes 
