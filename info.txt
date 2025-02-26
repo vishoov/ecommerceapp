@@ -1,0 +1,11 @@
+{
+       
+        "username": "virat",
+        "age": 30,
+        "email": "virat@gmail.com",
+        "role": "user",
+        "password": "hellohello",
+        "phone":"+91-1000209707",
+        "address":"dubai",
+        "__v": 0
+    }
